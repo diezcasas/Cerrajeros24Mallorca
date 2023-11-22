@@ -1,0 +1,139 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:#e8eaf6;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main{
+    padding-top: 0;
+    margin-top: 0;
+    min-width: 100vw !important;
+    flex: 1 0 auto;
+}
+
+#nav-general, header {
+    background-color: #1a237e !important;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#Logo{
+   margin: 0;
+}
+
+
+#header-img{
+    margin-top: -10px; 
+    background-image: url(../imgs/photos/close-up-dark-equipment.jpg);
+    background-size: cover;
+    min-height: 40vh;
+    height: 30vh;
+    width: 100%;
+    background-position: 50% 20%;
+    background-attachment: fixed local;
+ 
+}
+
+@media screen and (max-width: 750px){
+    #header-img{
+        min-height: 40vh; 
+        height: 70vh;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #header-img{
+        min-height: 40vh; 
+        height: 80vh;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    #header-img{
+        min-height: 40vh; 
+        height: 42vh;
+        width: 100%;
+    }
+}
+
+#header-text{
+    padding-top: 0.5em ;
+    margin-top: 0.5em;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 10px;
+}
+
+@media screen and (min-width: 600px){
+    #header-text{
+        color:white !important;
+    }
+}
+
+#secondary-text{
+    font-style: italic;
+}
+
+#btn-llamar{
+    margin-top: 3%
+}
+
+#cards{
+    background-color: whitesmoke;
+}
+
+.lower-card-title{
+    padding-top: 0;
+    margin-top: 0;
+    font-weight: bold;
+    color: #3f51b5; 
+}
+
+#tituloMapa{
+   border-color: gold;
+}
+
+.collapsible-header{
+    color: #3f51b5; 
+    font-weight: bold;
+    font-size: medium;
+    background-color: whitesmoke;
+}
+
+.collapsible li.active i {
+    color: goldenrod;
+}
+
+.collapsible-body{
+    color: grey;
+    font-style: italic;
+    background-color: #eceff1;
+}
+
+footer{
+    background-color: #1a237e!important;
+    margin-bottom: 0px;
+    min-height: 80px;
+    padding: 1em;
+}
+
+#iconos-footer{
+    font-style: italic;
+}
+
+
+/* Helpers */
+.bold-text{
+    font-weight: bold; 
+}
+
